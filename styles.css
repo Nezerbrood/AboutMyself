@@ -2,7 +2,7 @@
 body {
   height: 100%;
   width: 100%;
-background-color:#E4DFED;
+  background: url("images/blue-gradients.020-wh.jpg");
 }
 .card
 {
@@ -41,12 +41,13 @@ background-color:#E4DFED;
 	font: 15px/1  Arial;
 	color: #150061;
 }
-.information{
+.contacts{
 	background-color: #C4B5FA;
-	text-align: justify;
+	text-align:right;
 	position: absolute;
 	padding-left: 15px;
 	padding-right: 15px;
+	padding-top: 0px;
 	margin-top: 50px;
 	left: 650px;
 	width: 300px;
@@ -54,6 +55,23 @@ background-color:#E4DFED;
 	display: block;
 	outline: 2px solid #000000;
 	box-shadow: 5px 5px 10px #000;
-	font: 15px/1  Arial;
+	font: 20px/1.5  Arial;
 	color: #150061;
+}
+.tableinfo{
+	text-align:left;
+}
+.table{
+	position: absolute;
+	margin-top:15px;
+}
+.main_block{
+	outline: 2px solid #000000;
+	background: url("images/DARK_BLUE.PNG");
+	position: relative;
+	width: 1000px;
+	height: 800px;
+	font-size: 26px;
+	margin:0 auto;
+	padding-left: 25px;
 }
