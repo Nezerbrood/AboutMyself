@@ -96,7 +96,7 @@ a{
     height: 550px;
     font: 20px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
     color: aliceblue;
-	background: url("images/DARK_BLUE.PNG");
+	background: url("images/DARK_BLUE.png");
 }
 .t2block {
     position: absolute;
@@ -107,7 +107,7 @@ a{
     height: 550px;
     font: 20px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
     color: aliceblue;
-	background: url("images/DARK_BLUE.PNG");
+	background: url("images/DARK_BLUE.png");
 }
 .aright {
 	display: block;
