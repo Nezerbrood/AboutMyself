@@ -66,7 +66,7 @@ a{
 {
 	text-align:left;
 }
-.table{
+.tablef{
 	position: absolute;
 	margin-top:15px;
 }
@@ -219,24 +219,26 @@ a{
     color: aliceblue;
 }
 .text_drink2{
-	position: absolute;
-	margin-left:15px;
-	width: 150px;
-    height: 200px;
-	padding: 10px 10px 10px 5px;
-	font: 15px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
+    position: absolute;
+    margin-left: 15px;
+    width: 164px;
+    height: 179px;
+    padding: 10px 10px 10px 5px;
+    font: 15px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
     color: aliceblue;
-	text-align: right;
+    text-align: right;
+    left: -14px;
 }
 .text_drink3{
-	position: absolute;
-	margin-left:15px;
-	width: 150px;
-    height: 200px;
-	padding: 10px 10px 10px 5px;
-	font: 15px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
+    position: absolute;
+    margin-left: 15px;
+    width: 161px;
+    height: 179px;
+    padding: 10px 10px 10px 5px;
+    font: 15px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
     color: aliceblue;
-	text-align: right;
+    text-align: right;
+    left: -15px;
 }
 .text_drink4{
 	position: relative;
@@ -258,4 +260,33 @@ a{
     text-align: center;
     font: 40px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
     background: url("images/topblue3.png");
+}
+.table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 660px;
+    align-items: center;
+    align-self: auto;
+    text-align: center;
+    left: -1px;
+    top: 12px;
+    font: 25px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    color: aqua;
+}
+tr{
+	  border: 1px solid black;
+}
+.drinklist
+{
+    outline: 2px solid #000000;
+    background: url("images/DARK BLUE.png");
+    position: relative;
+	padding-top: 20px;
+    width: 829px;
+    height: 668px;
+    font-size: 26px;
+    margin: 0 auto;
 }
