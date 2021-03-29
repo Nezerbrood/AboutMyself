@@ -7,7 +7,7 @@ body {
 .card
 {
 	outline: 2px solid #000000;
-	background-color:#2C1D61;
+	background: url("images/topblue.png");
 	position: relative;
 	width: 1000px;
 	height: 300px;
@@ -26,23 +26,23 @@ body {
 	box-shadow: 0px 5px 5px #000;
 }
 .text_block {
-	background-color: #C4B5FA;
+	background: url("images/topblue2.png");
 	text-align: justify;
 	position: absolute;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-top: 50px;
 	left: 225px;
-	width: 400px;
+	width: 393px;
 	height: 200px;
 	display: block;
 	outline: 2px solid #000000;
 	box-shadow: 5px 5px 10px #000;
 	font: 15px/1  Arial;
-	color: #150061;
+	color:#ACACAC;
 }
 .contacts{
-	background-color: #C4B5FA;
+	background: url("images/topblue3.png");
 	text-align:right;
 	position: absolute;
 	padding-left: 15px;
@@ -58,7 +58,11 @@ body {
 	font: 20px/1.5  Arial;
 	color: #150061;
 }
-.tableinfo{
+a{
+	color: hotpink;
+}
+.tableinfo
+{
 	text-align:left;
 }
 .table{
@@ -69,9 +73,61 @@ body {
 	outline: 2px solid #000000;
 	background: url("images/DARK_BLUE.PNG");
 	position: relative;
-	width: 1000px;
-	height: 800px;
+	width: 1025px;
+	height: 700px;
 	font-size: 26px;
 	margin:0 auto;
-	padding-left: 25px;
+}
+.second_block{
+    position: absolute;
+    padding-top: 0px;
+    margin: 100px 0px 0px 0px;
+    width: 1025px;
+    height: 600px;
+    outline: 2px solid #000000;
+}
+.t1block {
+    position: absolute;
+    outline: 2px solid #000000;
+    margin: 0px 0px 0px 0px;
+    padding: 25px 25px 25px 25px;
+    width: 462px;
+    height: 550px;
+    font: 20px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
+    color: aliceblue;
+}
+.t2block {
+    position: absolute;
+    outline: 0px solid #000000;
+    margin: 0px 0px 0px 50%;
+    padding: 25px 25px 25px 25px;
+    width: 462px;
+    height: 550px;
+    font: 20px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
+    color: aliceblue;
+}
+.aright {
+	display: block;
+	position: absolute;
+	outline: 2px solid #000000;
+	padding-top: 25px;
+	margin:0px 0px 0px 50%;
+	width: 50%;
+	height: 75px;
+	text-align: center;
+	font: 40px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background: url("images/topblue3.png");
+	
+}
+.aleft {
+	display: block;
+	position: absolute;
+	outline: 2px solid #000000;
+	padding-top: 25px;
+	margin:0px 0px 0px 0px;
+	width: 50%;
+	height: 75px;
+	text-align: center;
+	font: 40px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background: url("images/topblue3.png");
 }
