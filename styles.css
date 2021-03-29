@@ -80,6 +80,7 @@ a{
 	margin:0 auto;
 }
 .second_block{
+	background: url("images/DARK_BLUE.png");
     position: absolute;
     padding-top: 0px;
     margin: 100px 0px 0px 0px;
@@ -88,7 +89,8 @@ a{
     outline: 2px solid #000000;
 }
 .t1block {
-    position: absolute;
+	background: url("images/DARK_BLUE.png");
+	position: absolute;
     outline: 2px solid #000000;
     margin: 0px 0px 0px 0px;
     padding: 25px 25px 25px 25px;
@@ -96,9 +98,10 @@ a{
     height: 550px;
     font: 20px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
     color: aliceblue;
-	background: url("images/DARK_BLUE.png");
+
 }
 .t2block {
+	background: url("images/DARK_BLUE.png");
     position: absolute;
     outline: 0px solid #000000;
     margin: 0px 0px 0px 50%;
@@ -107,7 +110,6 @@ a{
     height: 550px;
     font: 20px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
     color: aliceblue;
-	background: url("images/DARK_BLUE.png");
 }
 .aright {
 	display: block;
