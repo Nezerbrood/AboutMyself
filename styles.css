@@ -4,6 +4,7 @@ body {
   width: 100%;
   background: url("images/blue-gradients.020-wh.jpg");
 }
+
 .card
 {
 	outline: 2px solid #000000;
@@ -131,3 +132,114 @@ a{
 	font: 40px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	background: url("images/topblue3.png");
 }
+.cardlist
+{
+    outline: 2px solid #000000;
+    background: url("images/DARK BLUE.png");
+    position: relative;
+    width: 829px;
+    height: 800px;
+    font-size: 26px;
+    margin: 0 auto;
+}
+.cardline{
+	height: 200px;
+	position: relative;
+	outline: 1px solid #6E37AB;
+}
+.cardtype1{
+	position: absolute;
+	width: 55%;
+	height: 100%;
+	background: url("/images/pattern.PNG");
+	
+}
+.cardtype2{
+	position:absolute;
+	margin:  0 55%;
+	width: 45%;
+	height: 100%;
+}
+.cardtype3{
+	position: absolute;
+	width: 45%;
+	height: 100%;
+	background: url("/images/pattern.PNG");
+}
+.cardtype4{
+	position:absolute;
+	margin:  0 45%;
+	width: 55%;
+	height: 100%;
+}
+.card-drink4
+{
+	position: absolute;
+	display: block;
+	width: 200px;
+	height: 200px;
+
+}
+.card-drink1
+{
+	position: absolute;
+	display: block;
+	width: 200px;
+	height: 200px;
+
+}
+.card-drink2
+{
+	position: absolute;
+	display: block;
+	width: 200px;
+	height: 200px;
+	padding-left: 175px;
+
+}
+.card-drink3
+{
+    position: absolute;
+    display: block;
+    width: 199px;
+    height: 200px;
+    padding-left: 175px;
+
+}
+.text_drink1{
+	position: absolute;
+	margin-left:215px;
+	width: 199px;
+    height: 200px;
+	padding: 10px 10px 10px 10px;
+	font: 15px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
+    color: aliceblue;
+}
+.text_drink2{
+	position: absolute;
+	margin-left:15px;
+	width: 150px;
+    height: 200px;
+	padding: 10px 10px 10px 5px;
+	font: 15px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
+    color: aliceblue;
+	text-align: right;
+}
+.text_drink3{
+	position: absolute;
+	margin-left:15px;
+	width: 150px;
+    height: 200px;
+	padding: 10px 10px 10px 5px;
+	font: 15px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
+    color: aliceblue;
+	text-align: right;
+}
+.text_drink4{
+	position: absolute;
+	margin-left:215px;
+	width: 199px;
+    height: 200px;
+	padding: 10px 10px 10px 10px;
+	font: 15px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
+    color: aliceblue;
