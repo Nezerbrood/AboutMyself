@@ -96,6 +96,7 @@ a{
     height: 550px;
     font: 20px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
     color: aliceblue;
+	background: url("images/DARK_BLUE.PNG");
 }
 .t2block {
     position: absolute;
@@ -106,6 +107,7 @@ a{
     height: 550px;
     font: 20px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
     color: aliceblue;
+	background: url("images/DARK_BLUE.PNG");
 }
 .aright {
 	display: block;
@@ -137,6 +139,7 @@ a{
     outline: 2px solid #000000;
     background: url("images/DARK BLUE.png");
     position: relative;
+	padding-top: 20px;
     width: 829px;
     height: 800px;
     font-size: 26px;
@@ -236,10 +239,23 @@ a{
 	text-align: right;
 }
 .text_drink4{
-	position: absolute;
+	position: relative;
 	margin-left:215px;
 	width: 199px;
     height: 200px;
 	padding: 10px 10px 10px 10px;
 	font: 15px/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans";
-    color: aliceblue;
+	color: aliceblue;
+}
+.back_link {
+    display: block;
+    position: relative;
+    outline: 1px solid #000000;
+    padding-top: 15px;
+    margin: 5px auto auto auto;
+    width: 416px;
+    height: 45px;
+    text-align: center;
+    font: 40px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    background: url("images/topblue3.png");
+}
